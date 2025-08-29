@@ -1,5 +1,5 @@
 /*tenor-modz*/
-/*supreme*/
+/*superstar*/
 /*2025*/
 
 
@@ -20,7 +20,7 @@ const { spawn, exec, execSync } = require('child_process');
 const { downloadContentFromMessage, proto, generateWAMessage, getContentType, prepareWAMessageMedia, generateWAMessageFromContent, GroupSettingChange, jidDecode, WAGroupMetadata, emitGroupParticipantsUpdate, emitGroupUpdate, generateMessageID, jidNormalizedUser, generateForwardMessageContent, WAGroupInviteMessageGroupMetadata, GroupMetadata, Headers, delay, WA_DEFAULT_EPHEMERAL, WADefault, getAggregateVotesInPollMessage, generateWAMessageContent, areJidsSameUser, useMultiFileAuthState, fetchLatestBaileysVersion, makeCacheableSignalKeyStore, makeWaconnet, makeInMemoryStore, MediaType, WAMessageStatus, downloadAndSaveMediaMessage, AuthenticationState, initInMemoryKeyStore, MiscMessageGenerationOptions, useSingleFileAuthState, BufferJSON, WAMessageProto, MessageOptions, WAFlag, WANode, WAMetric, ChatModification, MessageTypeProto, WALocationMessage, ReconnectMode, WAContextInfo, ProxyAgent, waChatKey, MimetypeMap, MediaPathMap, WAContactMessage, WAContactsArrayMessage, WATextMessage, WAMessageContent, WAMessage, BaileysError, WA_MESSAGE_STATUS_TYPE, MediaConnInfo, URL_REGEX, WAUrlInfo, WAMediaUpload, mentionedJid, processTime, Browser, MessageType,
 Presence, WA_MESSAGE_STUB_TYPES, Mimetype, relayWAMessage, Browsers, DisconnectReason, WAconnet, getStream, WAProto, isBaileys, AnyMessageContent, templateMessage, InteractiveMessage, Header } = require("@whiskeysockets/baileys");
 
-module.exports = supreme = async (supreme, m, chatUpdate, store) => {
+module.exports = superstar = async (superstar, m, chatUpdate, store) => {
 try {
 // Message type handlers
 const body = (
@@ -37,7 +37,7 @@ m.mtype === "messageContextInfo" ? m.message.buttonsResponseMessage?.selectedBut
 );
 
 const sender = m.key.fromMe
-? supreme.user.id.split(":")[0] || supreme.user.id
+? superstar.user.id.split(":")[0] || superstar.user.id
 : m.key.participant || m.key.remoteJid;
 
 const senderNumber = sender.split('@')[0];
@@ -256,7 +256,7 @@ break;
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━//
     case 'gitclone': {
 
-		      if (!text) return m.reply(`provide  a github link.\n *Example:* .gitclone https://github.com/superstar-zimtk/Pretty-Md`)
+		      if (!text) return m.reply(`provide  a github link.\n *Example:* .gitclone https://github.com/superstar-zimtk/Pretty-md`)
 
 if (!text.includes('github.com')) return reply(`Is that a GitHub repo link ?!`)
 
