@@ -1,5 +1,5 @@
 //tenor-modz 
-//superstar-zimtk
+//superstar
 //2025
 
 require('./setting/settings');
@@ -120,7 +120,7 @@ async function startconn() {
         if (!!global.phoneNumber) {
             phoneNumber = global.phoneNumber;
         } else {
-            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 😍\nFormat: 2547XXXXX (without + or spaces) : `)));
+            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 😍\nFormat: 26371XXXXX (without + or spaces) : `)));
         }
 
         phoneNumber = phoneNumber.replace(/[^0-9]/g, '');
