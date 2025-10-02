@@ -1,56 +1,52 @@
 {
-  "name": "Pretty-md",
-  "description": "A WhatsApp bot based on Baileysjs library with Multi Device support",
-  "repository": "https://github.com/anonphoenix007/CH13",
-  "logo": "https://telegra.ph/file/7aa528767ed96ddc17bc2.jpg",
+  "name": "pretty md",
+  "description": "A WhatsApp bot based on Baileysjs library (Ts+Js) with Multi Device support",
+  "repository": "https://github.com/superstar-zimtk/pretty-md",
+  "logo": "",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
+  "success_url": "/",
+  "stack": "heroku-24",
   "env": {
     "OWNER_NAME": {
-      "description": "Enter your owner name here",
-      "value": "Superstar",
-      "required": false
+      "description": "Enter your owner name here.",
+      "value": "supreme",
+      "required": true
     },
     "BOT_PREFIX": {
-      "description": "Put your bot prefix of desire here",
+      "description": "Put your bot prefix of desire here (e.g., .)",
       "value": ".",
       "required": false
     },
-    "AUTO_STATUS": {
-      "description": "Type true if you want bot to view status else false",
-      "value": "true",
-      "required": false
-    },
-    "AUTO_READ": {
-      "description": "Type true if you want bot to read incoming messages else false",
-      "value": "false",
-      "required": false
-    },
     "SESSION_ID": {
-      "description": "Put your session ID here",
-      "value": "JUNE:~",
-      "required": true
+      "description": "Put your session ID here (should start with PRETTY-MD:~)",
+      "value": "",
+      "required": false
     }
   },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "description": "Free PostgreSQL database for storing bot data."
+    }
+  ],
   "buildpacks": [
     {
-      "url": "heroku/nodejs"
+      "url": "heroku/nodejs",
+      "description": "Node.js runtime for running the bot."
     },
     {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git",
+      "description": "WebP support for image processing."
     },
     {
-      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest",
+      "description": "FFmpeg for audio/video processing."
     }
   ],
   "formation": {
     "worker": {
       "quantity": 1,
-      "size": "standard-2x"
+      "size": "basic"
     }
-  },
-  "addons": [
-    {
-      "plan": "heroku-postgresql:essential-0"
-    }
-  ]
+  }
 }
