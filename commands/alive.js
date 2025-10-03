@@ -27,7 +27,7 @@ async function aliveCommand(sock, chatId) {
 │  🔸 *Version*: ${settings.version}
 │  🔹 *Mode*: Public
 ├───────────────────
-│  👽 *Features*:
+│  🎊 *Features*:
 │  • Group Management
 │  • Antilink Protection
 │  • Fun Commands
@@ -36,7 +36,7 @@ async function aliveCommand(sock, chatId) {
 ├───────────────────
 `.trim();
 
-        const imageUrl = 'Https://files.catbox.moe/du4uzm.jpg';
+        const imageUrl = 'https://files.catbox.moe/02xt7r.jpg';
         const imagePath = await downloadImage(imageUrl);
         
         const messageOptions = {
@@ -45,7 +45,7 @@ async function aliveCommand(sock, chatId) {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363399707841760@newsletter',
-                    newsletterName: 'ʟᴀᴅʏ ʙᴇʟʟᴀ ᴠ3',
+                    newsletterName: 'pretty md',
                     serverMessageId: -1
                 }
             }
