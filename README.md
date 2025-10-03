@@ -8,7 +8,7 @@
 
 <!-- Banner Image -->
 <p align="center">
-  <a href="Https://files.catbox.moe/du4uzm.jpg">
+  <a href="https://files.catbox.moe/3u88n0.webp">
     <img src="https://files.catbox.moe/du4uzm.jpg" width="100%" height="auto">
   </a>
 </p>
