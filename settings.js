@@ -1,9 +1,9 @@
 const settings = {
-  packname: 'ʟᴀᴅʏ ʙᴇʟʟᴀ ᴠ3',
+  packname: 'Pretty-md,
   author: '‎',
-  botName: "ʟᴀᴅʏ ʙᴇʟʟᴀ ᴠ3",
-  botOwner: 'sɴᴏᴡʙɪʀᴅ', // Your name
-  ownerNumber: '263780145644', //Set your number here without + symbol, just add country code & number without any space
+  botName: "Pretty-md ᴠ3",
+  botOwner: 'superstar', // Your name
+  ownerNumber: '263715305976', //Set your number here without + symbol, just add country code & number without any space
   giphyApiKey: 'qnl7ssQChTdPjsKta2Ax2LMaGXz303tq',
   commandMode: "public",
   maxStoreMessages: 20, 
