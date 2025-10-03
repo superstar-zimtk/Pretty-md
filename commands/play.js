@@ -30,7 +30,7 @@ async function playCommand(sock, chatId, message) {
         const urlYt = video.url;
 
         // Fetch audio data from API
-        const response = await axios.get(`https://apis.davidcyriltech.my.id/youtube/mp3?url=${urlYt}`);
+        const response = await axios.get(`https://apis.davidcyriltech.my.id/download/ytmp3?url=${urlYt}`);
         const data = response.data;
 
         if (!data || !data.status || !data.result || !data.result.downloadUrl) {
