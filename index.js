@@ -12,7 +12,6 @@ const { Boom } = require('@hapi/boom')
 const yargs = require('yargs/yargs')
 const { handleMessages, handleGroupParticipantUpdate, handleStatus } = require('./main');
 const fs = require('fs')
-const chalk = require('chalk')
 const path = require('path')
 const axios = require('axios')
 const _ = require('lodash')
