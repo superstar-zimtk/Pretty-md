@@ -2,7 +2,7 @@ const settings = {
   packname: 'ᴘʀᴇᴛᴛʏ 𝐌ᴅ',
   author: 'SUPREME',
   botName: "ᴘʀᴇᴛᴛʏ 𝐌ᴅ",
-  botOwner: 'Superstar, // Your name
+  botOwner: 'Superstar', // Your name
   ownerNumber: '263715305976', //Set your number here without + symbol.
   giphyApiKey: 'qnl7ssQChTdPjsKta2Ax2LMaGXz303tq',
   commandMode: "public",
