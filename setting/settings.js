@@ -1,5 +1,4 @@
 const fs = require('fs')
-const chalk = require('chalk')
 if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 
