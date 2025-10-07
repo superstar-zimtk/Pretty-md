@@ -26,7 +26,7 @@
       "required": false
     },
     "SESSION_ID": {
-      "description": "Put your session ID here(should start with PRETTY-MD:~)",
+      "description": "Put your session ID here(should start with JUNE-MD:~)",
       "value": "",
       "required": true
     }
