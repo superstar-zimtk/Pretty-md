@@ -29,7 +29,7 @@ const delay = (ms) => new Promise((res) => setTimeout(res, ms));
 async function downloadAndExtract() {
   try {
     if (fs.existsSync(EXTRACT_DIR)) {
-      console.log(chalk.green("😅 Extracted directory found. 🏂Skipping download and extraction."));
+      console.log(chalk.green("😅 Extracted directory found. Skipping download and extraction."));
       return;
     }
 
@@ -55,6 +55,7 @@ async function downloadAndExtract() {
     console.log(chalk.blue("💉 ZIP download complete."));
 
     try {
+      
       new AdmZip(zipPath).extractAllTo(TEMP_DIR, true);
     } catch (e) {
       console.error(chalk.red("❌ Failed to extract ZIP:"), e);
@@ -93,7 +94,7 @@ async function applyLocalSettings() {
     console.error(chalk.red("❌ Failed to apply local settings:"), e);
   }
 
-  await delay(500);
+  await delay(400);
 }
 
 function startBot() {
