@@ -77,7 +77,7 @@ function copyConfigs(repoPath) {
   }
 
   try {
-    console.log('[🚀] Launching Subzero Bot...');
+    console.log('[🚀] Launching Pretty Bot...');
     process.chdir(extractedRepoPath);
     require(path.join(extractedRepoPath, 'index.js'));
   } catch (err) {
