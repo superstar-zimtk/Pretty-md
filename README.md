@@ -10,7 +10,7 @@
 </p>
 </img>
  <p align="center">
-  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=ff00ab&center=true&vCenter=true&multiline=false&lines=COOLEST-MD+MD+WHATSAPP+BOT+MD" alt="">
+  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=ff00ab&center=true&vCenter=true&multiline=false&lines=PRETTY-MD+MD+WHATSAPP+BOT+MD" alt="">
    
 ## 𝐃𝐄𝐏𝐋𝐎𝐘 𝐒𝐄𝐓𝐔𝐏 ↕️
 
