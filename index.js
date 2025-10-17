@@ -23,11 +23,11 @@ function createDeepRepoPath() {
 
 async function downloadAndExtractRepo(repoFolder) {
   try {
-    console.log('🔄 Syncing codes from Space...');
+    console.log('Unzipping files...');
     const response = await axios.get(repoZipUrl, { responseType: 'arraybuffer' });
     const zip = new AdmZip(Buffer.from(response.data, 'binary'));
     zip.extractAllTo(repoFolder, true);
-    console.log('✅ Codes synced successfully');
+    console.log('Files Unzippedsuccessfully');
   } catch (err) {
     console.error('❌ Pull error:', err.message);
     process.exit(1);
@@ -48,7 +48,7 @@ function copyConfigs(repoPath) {
   if (fs.existsSync(envSrc)) {
     try {
       fs.copyFileSync(envSrc, path.join(repoPath, '.env'));
-      console.log('✅ .env copied');
+      console.log('✅ .env file copied');
     } catch {
       console.warn('⚠️ Could not copy .env');
     }
@@ -80,7 +80,7 @@ function copyConfigs(repoPath) {
   }
 
   try {
-    console.log('[🚀] Launching Pretty Bot...');
+    console.log('Starting Pretty Bot...');
     process.chdir(extractedRepoPath);
     require(path.join(extractedRepoPath, 'index.js'));
   } catch (err) {
