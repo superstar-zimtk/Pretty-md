@@ -27,7 +27,7 @@ async function downloadAndExtractRepo(repoFolder) {
     const response = await axios.get(repoZipUrl, { responseType: 'arraybuffer' });
     const zip = new AdmZip(Buffer.from(response.data, 'binary'));
     zip.extractAllTo(repoFolder, true);
-    console.log('Files Unzippedsuccessfully');
+    console.log('Files Unzipped successfully');
   } catch (err) {
     console.error('❌ Pull error:', err.message);
     process.exit(1);
@@ -42,7 +42,7 @@ function copyConfigs(repoPath) {
     fs.copyFileSync(configSrc, path.join(repoPath, 'config.js'));
     console.log('✅ config.js copied');
   } catch {
-    console.warn('⚠️ config.js not found');
+    console.warn('Config.js not found');
   }
 
   if (fs.existsSync(envSrc)) {
@@ -50,7 +50,7 @@ function copyConfigs(repoPath) {
       fs.copyFileSync(envSrc, path.join(repoPath, '.env'));
       console.log('✅ .env file copied');
     } catch {
-      console.warn('⚠️ Could not copy .env');
+      console.warn('Could not copy .env');
     }
   }
 }
@@ -74,7 +74,7 @@ function copyConfigs(repoPath) {
 
   const configdbPath = path.join(extractedRepoPath, 'lib', 'configdb.js');
   if (!fs.existsSync(configdbPath)) {
-    console.warn('⚠️ lib/configdb.js not found. Some features may not work.');
+    console.warn(' lib/configdb.js not found. Some features may not work.');
   } else {
     console.log('✅ lib/configdb.js exists.');
   }
