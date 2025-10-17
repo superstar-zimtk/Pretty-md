@@ -18,7 +18,7 @@
   "keywords": [
     "whatsapp-bot"
   ],
-  "author": "supreme",
+  "author": "Superstar",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
