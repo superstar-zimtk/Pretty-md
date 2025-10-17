@@ -1,9 +1,5 @@
 
 
-process.env.SESSION_ID="put your session id here"
-
-
-
 
 const fs = require('fs');
 const path = require('path');
