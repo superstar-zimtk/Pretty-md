@@ -1,4 +1,13 @@
-/**Encrypted by exhypher tech
+/**Encrypted by xhypher tech
+
+$$$         $$$   $$$   $$$  $$$   $$$ 
+  $$$     $$$     $$$   $$$  $$$   $$$  
+    $$$ $$$       $$$   $$$   $$   $$
+     $$$$         $$$$$$$$$    $$ $$
+    $$$ $$$       $$$   $$$      $$
+  $$$     $$$     $$$   $$$      $$
+$$$         $$$   $$$   $$$      $$
+
 best credit superstar*/
 
 
