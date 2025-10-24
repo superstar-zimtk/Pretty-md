@@ -1,7 +1,7 @@
 {
   "name": "pretty-md",
   "version": "2.5.9",
-  "description": "powered by xhypher tech",
+  "description": "WhatsApp Bot",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -13,19 +13,19 @@
     "install:panel": "npm install --legacy-peer-deps",
     "install:force": "npm install --force",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docker:build": "docker build -t docker run -e SESSION_ID=$SESSION_ID June-md"
+    "docker:build": "docker build -t docker run -e SESSION_ID=$SESSION_ID pretty-md"
   },
   "keywords": [
     "whatsapp-bot"
   ],
-  "author": "mr frank",
+  "author": "xhypher",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
     "@ffmpeg/ffmpeg": "^0.12.15",
     "@hapi/boom": "^10.0.1",
     "@types/node": "^20.0.0",
-    "@whiskeysockets/baileys": "^7.0.0-rc.5",
+    "@whiskeysockets/baileys": "^7.0.0-rc.3",
     "awesome-phonenumber": "^5.9.0",
     "axios": "^1.8.4",
     "chalk": "^4.1.2",
