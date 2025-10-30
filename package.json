@@ -13,23 +13,24 @@
     "install:panel": "npm install --legacy-peer-deps",
     "install:force": "npm install --force",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docker:build": "docker build -t docker run -e SESSION_ID=$SESSION_ID pretty-md"
+    "docker:build": "docker build -t docker run -e SESSION_ID=$SESSION_ID June-md"
   },
   "keywords": [
     "whatsapp-bot"
   ],
-  "author": "xhypher",
+  "author": "supreme",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
     "@ffmpeg/ffmpeg": "^0.12.15",
     "@hapi/boom": "^10.0.1",
     "@types/node": "^20.0.0",
-    "@whiskeysockets/baileys": "^7.0.0-rc.3",
+    "@whiskeysockets/baileys": "^6.7.18",
+    "adm-zip": "^0.5.16",
     "awesome-phonenumber": "^5.9.0",
     "axios": "^1.8.4",
+    "better-sqlite3": "^12.4.1",
     "chalk": "^4.1.2",
-    "adm-zip": "^0.5.16",
     "cheerio": "^1.0.0-rc.12",
     "cookie": "^0.5.0",
     "dotenv": "^16.4.5",
@@ -53,8 +54,8 @@
     "node-webpmux": "^3.1.0",
     "node-youtube-music": "^0.8.3",
     "performance-now": "^2.1.0",
-    "pg-hstore": "^2.3.4",
     "pg": "^8.11.3",
+    "pg-hstore": "^2.3.4",
     "phin": "^3.7.1",
     "pino": "^8.21.0",
     "qrcode": "^1.5.4",
