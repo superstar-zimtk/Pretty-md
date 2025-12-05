@@ -6,6 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "start:optimized": "node --max-old-space-size=512 --optimize-for-size --gc-interval=100 index.js",
+    "start:heroku": "node --max-old-space-size=512 --optimize-for-size index.js",
+    "heroku-postbuild": "echo 'Build complete'",
     "cleanup": "node cleanup.js",
     "reset-session": "node reset-session.js",
     "start:clean": "npm run cleanup && npm run start:optimized",
