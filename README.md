@@ -28,7 +28,7 @@ Generate your WhatsApp session ID and deploy using our secure service.
 
 <p align="center">
   <a href="https://xhypherpair.vercel.app/" target="_blank">
-    <img all Deployments" src="https://img.shields.io/badge/🔗_ALL_DEPLOYMENTS-100000?style=for-the-badge&logo=key&logoColor=white&labelColor=red&color=pink"/>
+    <img all Deployments" src="https://img.shields.io/badge/🔗_ALL_DEPLOYMENTS-100000?style=for-the-badge&logo=key&logoColor=white&labelColor=pink&color=pink"/>
   </a>
 </p>
 
