@@ -22,36 +22,15 @@ Start by forking the main repository to your GitHub account.
   </a>
 </p>
 
-2. Get Session ID
+2. Deploy Bot
 
 Generate your WhatsApp session ID using our secure service.
 
 <p align="center">
-  <a href="https://xhypher-tech.vercel.app" target="_blank">
-    <img alt="Get Session" src="https://img.shields.io/badge/🔑_GET_SESSION-100000?style=for-the-badge&logo=key&logoColor=white&labelColor=darkred&color=pink"/>
+  <a href="https://xhypherpair.vercel.app/" target="_blank">
+    <img all Deployments" src="https://img.shields.io/badge/🔗_ALL_DEPLOYMENTS-100000?style=for-the-badge&logo=key&logoColor=white&labelColor=darkred&color=pink"/>
   </a>
 </p>
-
-3. Deploy to Heroku
-
-One-click deployment to Heroku (recommended for beginners).
-
-<p align="center">
-  <a href="https://dashboard.heroku.com/new?template=https://github.com/superstar-zimtk/Pretty-md" target="_blank">
-    <img alt="Deploy Heroku" src="https://img.shields.io/badge/⚡_DEPLOY_HEROKU-100000?style=for-the-badge&logo=heroku&logoColor=white&labelColor=purple&color=cyan"/>
-  </a>
-</p>
-
-4. Local Installation
-
-Prefer to run locally? Download the source code.
-
-<p align="center">
-  <a href="https://codeload.github.com/superstar-zimtk/Pretty-md/zip/refs/heads/main" target="_blank">
-    <img alt="Download ZIP" src="https://img.shields.io/badge/💾_DOWNLOAD_ZIP-100000?style=for-the-badge&logo=download&logoColor=cyan&labelColor=darkorange&color=blue"/>
-  </a>
-</p>
-
 
 <div align="center">
 
