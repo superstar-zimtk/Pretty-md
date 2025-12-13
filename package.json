@@ -33,6 +33,7 @@
     "axios": "^1.8.4",
     "better-sqlite3": "^12.4.1",
     "chalk": "^4.1.2",
+    "crypto": "^1.0.1",
     "cheerio": "^1.0.0-rc.12",
     "cookie": "^0.5.0",
     "dotenv": "^16.4.5",
