@@ -3,8 +3,8 @@
   <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=cyan&center=true&vCenter=true&multiline=false&lines=PRETTY-MD+ADVANCED+WHATSAPP+BOT+" alt=""></div>
 <p align="center">
   <p align="center">
-  <a href="https://github.com/superstar-zimtk/Pretty-md">
-    <img alt="pretty-md docs" height="350" src="https://res.cloudinary.com/dptzpfgtm/image/upload/v1763085792/whatsapp_uploads/qiy0ytyqcbebyacrgbju.jpg">
+  <a href="https://whatsapp.com/channel/0029VbBSyvgDuMRmt1JTRY12">
+    <img alt="pretty-md docs" height="350" src="https://files.catbox.moe/wuczla.jpg">
   </a>
 </p>
     
