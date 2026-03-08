@@ -22,7 +22,9 @@
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
+    "@anthropic-ai/sdk": "^0.78.0",
     "@ffmpeg/ffmpeg": "^0.12.15",
+    "@anthropic-ai/sdk": "^0.78.0",
     "@hapi/boom": "^10.0.1",
     "@types/node": "^20.0.0",
     "@whiskeysockets/baileys": "^v7.0.0-rc.9",
@@ -56,6 +58,7 @@
     "node-id3": "^0.2.3",
     "node-webpmux": "^3.1.0",
     "node-youtube-music": "^0.8.3",
+    "openai": "^6.27.0",
     "performance-now": "^2.1.0",
     "pg-hstore": "^2.3.4",
     "pg": "^8.11.3",
