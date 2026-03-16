@@ -1,16 +1,16 @@
 <div </img>
  <p align="center">
-  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=cyan&center=true&vCenter=true&multiline=false&lines=PRETTY-MD+ADVANCED+WHATSAPP+BOT+" alt=""></div>
+  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=cyan&center=true&vCenter=true&multiline=false&lines=YIIKI-JOSHUA+ADVANCED+WHATSAPP+BOT+" alt=""></div>
 <p align="center">
   <p align="center">
    <a href="https://github.com/superstar-zimtk/Pretty-md">
-    <img alt="pretty-md docs" height="350" src="https://res.cloudinary.com/dptzpfgtm/image/upload/v1763085792/whatsapp_uploads/qiy0ytyqcbebyacrgbju.jpg">
+    <img alt="Yiiki-Joshua docs" height="350" src="https://res.cloudinary.com/dptzpfgtm/image/upload/v1763085792/whatsapp_uploads/qiy0ytyqcbebyacrgbju.jpg">
    </a>
     
 </a>
 </p>
 <p align="center">
-<a href="https://github.com/superstar-zimtk"><img title="Author" src="https://img.shields.io/badge/Pretty-md-darkgreen?style=for-the-badge&logo=whatsapp"></a>
+<a href="https://github.com/superstar-zimtk"><img title="DISASTER" src="https://img.shields.io/badge/YIIKI-JOSHUA-darkgreen?style=for-the-badge&logo=whatsapp"></a>
 <p/>
 
 <p align="center">
