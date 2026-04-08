@@ -4,7 +4,7 @@
 <p align="center">
   <p align="center">
    <a href="https://github.com/superstar-zimtk/Pretty-md">
-    <img alt="pretty-md docs" height="350" src="https://ibb.co/F4B33gWD">
+    <img alt="pretty-md docs" height="350" src="https://i.ibb.co/d0t183VZ/IMG-20260325-WA0067.jpg">
    </a>
     
 </a>
